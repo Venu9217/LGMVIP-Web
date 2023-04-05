@@ -28,6 +28,10 @@ table {
         border-radius: 5px;
         font-size: larger;
     } 
+    #head1
+    {
+        text-align:center;
+     }
     .but2{
         width: 60px;
         height: 50px;
