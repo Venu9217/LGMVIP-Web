@@ -1,0 +1,43 @@
+<html>
+<center><h1>Calculator</h1></center>
+<head>
+
+<link rel="stylesheet" href="calculatorstylesheet.css"/>
+
+</head>
+<body>
+<table id="table1">
+<tr id="row1">
+<td colspan="3"><input type="text" id="res"></td>
+<td><input type="button" value="C" id="col" class="but2" onclick="clr()"></td>
+</tr>
+<tr>
+<td><input type="button" value="1"  class="but" onclick="dis('1')"></td>
+<td><input type="button" value="2"  class="but" onclick="dis('2')"></td>
+<td><input type="button" value="3" class="but" onclick="dis('3')"></td>
+<td><input type="button" value="/" class="but2" onclick="dis('/')"></td>
+</tr>
+<tr>
+<td><input type="button" value="4"  class="but" onclick="dis('4')"></td>
+<td><input type="button" value="5" class="but" onclick="dis('5')"></td>
+<td><input type="button" value="6" class="but" onclick="dis('6')"></td>
+<td><input type="button" value="-"  class="but2" onclick="dis('-')"></td>
+</tr>
+<tr>
+<td><input type="button" value="7" class="but"  onclick="dis('7')"></td>
+<td><input type="button" value="8" class="but" onclick="dis('8')"></td>
+<td><input type="button" value="9" class="but"  onclick="dis('9')"></td>
+<td><input type="button" value="+" class="but2" onclick="dis('+')"></td>
+</tr>
+<tr>
+<td><input type="button" value="." class="but"  onclick="dis('.')"></td>
+<td><input type="button" value="0" class="but"  onclick="dis('0')"></td>
+<td><input type="button" value="="  id="colo1" class="but" onclick="solve()"></td>
+<td><input type="button" value="*"  class="but2" onclick="dis('*')"></td>
+</tr>
+</table>
+<script  src="calculatoraction.js">
+
+</script> 
+</body>
+</html>
