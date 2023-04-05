@@ -1,0 +1,59 @@
+table {
+    border:4px solid #3B3B3B; 
+    border-radius: 16px;
+    width: 400px;
+    height:400px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:#3B3B3B;
+    }
+    .but
+    {
+       background-color:#5C00A3;
+       width: 100px; 
+       height: 50px;
+       margin-left: 10px;
+       margin-right:0px;
+       border-radius: 5px;
+       font-weight:bolder;
+       font-size: larger;
+       color: white;
+    }
+    #res
+    {
+        width: 325px;
+        height:50px;
+        margin-left: 10px;
+        outline: none;
+        border-radius: 5px;
+        font-size: larger;
+    } 
+    .but2{
+        width: 60px;
+        height: 50px;
+        margin-right:10px;
+        margin-left:0px;
+        border-radius: 5px;
+        font-weight:bolder;
+       font-size: larger;
+       color:white;
+       background-color:#5C00A3;
+    }
+    .but3
+    {
+        background-color:#5C00A3;
+       width: 100px; 
+       height: 50px;
+       margin-left: 10px;
+       margin-right:0px;
+       border-radius: 5px;
+       font-weight:bolder;
+       font-size: larger;
+       color: white;
+        margin-right: 0px;
+       margin-left:0px;
+    
+    }
+    #colo1,#col{
+        background-color:#fc3468;
+    }
