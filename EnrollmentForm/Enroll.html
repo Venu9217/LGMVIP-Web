@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <link rel="stylesheet" href="./enrollment.css">
+
+    </head>
+    <body> 
+        
+        <h1 id="head">student Enrollment Form</h1> 
+        <h1 id="h">Please enter your details</h1>  
+   
+        <form  onsubmit="return false;" >
+        <table id="table1">
+            <tr>
+                <td><label class="l">Name</label></td>
+                <td><input type="text" class="inp" id="n" required></td>
+            </tr>
+            <tr>
+                <td><label class="l">email</label></td>
+                <td><input type="email" class="inp" id="E" required></td>
+            </tr>
+           
+            <tr>
+                <td><label class="l">LinkedIn</label></td>
+                <td><input type="text" class="inp"  id="web" required></td>
+            </tr>
+            <tr>
+                <td><label class="l">Image link</label></td> 
+                <td><input type="url" id="profile-pic-url"class='inp'  required></td>
+            </tr>
+            <tr>
+                <td><label class="l">Gender</label></td>
+                <td><input type="radio" id="m" name="gender" value="Male">Male
+                    <input type="radio" id='f' name="gender" value="Female">Female</td>
+            </tr>   
+            <tr>
+                <td><label class="l">skills</label></td>
+                <td><input type="checkbox" id="c" name="skills" value="HTML">HTML
+                    <input type="checkbox" name="skills" value="CSS">CSS
+                    <input type="checkbox" name="skills" value="Javascript">Javascript</td>
+            </tr>   
+            <tr> 
+                <td colspan="2">
+                <input type="submit" id="sub" value="Enroll Student" onclick=AddData()>
+                <input type="button" id="clr" value="Clear" onclick=rem() > 
+                </td>
+            </tr>
+        </table> 
+      <script src="enroll.js"></script>
+        </form> 
+        <hr>
+           <div id="show"> 
+            <h1 id="e">Enrolled students</h1>
+            <table id="get" border="2"> 
+                <tr>
+                    <th>Description</th>
+                    <th>Image</th>
+                   
+                </tr> 
+            </table>
+        </div>   
+        
+    </body>
+</html>
