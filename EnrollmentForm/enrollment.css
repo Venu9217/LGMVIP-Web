@@ -1,0 +1,107 @@
+#head
+{
+    text-align: center;
+    background-color: aqua;
+} 
+#h,#e
+{
+    margin-left:100px;
+    margin-top:50px;
+}
+#table1
+{
+    padding: 30px;
+    border-spacing: 10px;
+    margin:25px;
+    position: relative;
+    top:20px;
+    left:60px;
+    border:3px groove black;
+    border-radius: 10px;
+    background-color:mediumvioletred;
+    
+}
+.inp
+{
+    height: 27px;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+#m,#f,#c
+{
+    margin-top: 5px;
+    margin-bottom: 3px;
+    margin-left: 22px;
+    
+}
+
+
+hr 
+{   
+    width: 1090px;;
+    transform: rotate(90deg);
+    height: 3px;  
+    color:black;   
+}
+#show{ 
+    position:absolute;
+    top:60px;
+    left:900px;
+}
+#sub
+{
+    width:150px;
+    height:40px;
+    border-radius: 5px;
+    font-size: larger;
+    font-weight:normal;
+    color:white;
+    background-color: blueviolet;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+#clr
+{
+    width:100px;
+    height:40px;
+    border-radius: 5px;
+    font-size: larger;
+    color:white;
+    margin-left: 15px;
+    background-color: brown;
+}
+.l{
+    font-size:larger;
+    font-weight: bolder;
+    color:white;
+} 
+label{
+    color:black;
+    font-weight:550;
+    font-size:medium;
+    padding-right:5px;
+    padding-bottom:15px ;
+    margin-bottom: 10px;
+}
+#get
+{
+    position: relative;
+    top:20px;
+    left:0px;
+    border:3px groove black;
+    border-radius: 10px;
+    border-collapse: collapse;
+   
+    background-color: rgb(166, 237, 213);
+}
+th{
+    height: 30px; 
+    background-color: greenyellow;
+}
+img{
+    align: center;
+}
+body{
+    background-color: rgb(247, 238, 238);
+}
