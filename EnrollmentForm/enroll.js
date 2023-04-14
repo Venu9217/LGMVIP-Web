@@ -2,7 +2,7 @@ var num = 1;
 function AddData(){ 
     var AddRown= document.getElementById('get');
     var NewRow = AddRown.insertRow(num);
-
+    AddRown.style.visibility="visible";
     list1 = document.getElementById("n").value;
     list2 = document.getElementById("E").value;
     list3 = document.getElementById("web").value;
