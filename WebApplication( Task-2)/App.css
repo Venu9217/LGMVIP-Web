@@ -1,0 +1,36 @@
+.App
+{
+  text-align: center;
+}
+table{
+  text-align: left;
+  position: relative;
+  top:50px;
+  left:570px;
+  border-spacing: 15px;
+  
+}
+table,th,td{
+  border:2px groove black;
+  border-collapse: collapse;
+  padding: 10px;
+  background-color: rgb(207, 255, 255);
+}
+button{
+  width:120px;
+  height:40px;
+  border-style: groove;
+  border-radius: 4px;
+  font-size: larger;
+  color: white;
+  font-weight: bolder;
+  background-color: rgb(23, 116, 71);
+  cursor: pointer;
+}
+nav{
+  background-color: aqua;
+}
+#im{
+  padding: 3px;
+  background-color: white;
+}
